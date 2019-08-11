@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "988537801265",
+    "firebase_url": "https://nec-calc-2a7bc.firebaseio.com",
+    "project_id": "nec-calc-2a7bc",
+    "storage_bucket": "nec-calc-2a7bc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:988537801265:android:9e7f11509bfc6ff2",
+        "android_client_info": {
+          "package_name": "com.nec.suryaneccalc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "988537801265-cc0c5i7r0329uh14ceeont4bbknlmdb8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBmNrJ8FV6NGiHeGXFjxTl3X2t82fqq0w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

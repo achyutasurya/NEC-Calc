@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.riyagayasen.easyaccordion.AccordionView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tv_country"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:textAlignment="gravity"
+    android:visibility="visible"
+    app:heading="This is a demo accordion"
+    app:isAnimated="true"
+    app:isExpanded="false"
+    app:isPartitioned="true">
+
+    <TextView
+        android:id="@+id/perTextas1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:text="AS-1 :" />
+
+    <TextView
+        android:id="@+id/ass1TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/perTextas1"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_toEndOf="@+id/perTextas1"
+        android:layout_toRightOf="@+id/perTextas1"
+        android:text="0" />
+
+    <TextView
+        android:id="@+id/perTextas2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/ass1TextView"
+        android:layout_marginLeft="23dp"
+        android:layout_marginStart="23dp"
+        android:layout_toEndOf="@+id/ass1TextView"
+        android:layout_toRightOf="@+id/ass1TextView"
+        android:text="AS-2 :" />
+
+    <TextView
+        android:id="@+id/ass2TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/perTextas2"
+        android:layout_alignBottom="@+id/perTextas2"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_toEndOf="@+id/perTextas2"
+        android:layout_toRightOf="@+id/perTextas2"
+        android:text="0" />
+
+    <TextView
+        android:id="@+id/perTextmid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/ass2TextView"
+        android:layout_alignBottom="@+id/ass2TextView"
+        android:layout_marginLeft="19dp"
+        android:layout_marginStart="19dp"
+        android:layout_toEndOf="@+id/ass2TextView"
+        android:layout_toRightOf="@+id/ass2TextView"
+        android:text="Mid :" />
+
+    <TextView
+        android:id="@+id/midTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/perTextmid"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_toEndOf="@+id/perTextmid"
+        android:layout_toRightOf="@+id/perTextmid"
+        android:text="0" />
+
+    <TextView
+        android:id="@+id/perTextObj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/midTextView"
+        android:layout_marginLeft="28dp"
+        android:layout_marginStart="28dp"
+        android:layout_toEndOf="@+id/midTextView"
+        android:layout_toRightOf="@+id/midTextView"
+        android:text="Obj :" />
+
+    <TextView
+        android:id="@+id/perTextTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/perTextas1"
+        android:layout_alignStart="@+id/perTextas1"
+        android:layout_below="@+id/perTextas1"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:text="Total Marks for 40 :" />
+
+    <TextView
+        android:id="@+id/totalTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/perTextTotal"
+        android:layout_alignBottom="@+id/perTextTotal"
+        android:layout_alignLeft="@+id/perTextmid"
+        android:layout_alignStart="@+id/perTextmid"
+        android:text="0" />
+
+    <TextView
+        android:id="@+id/perText25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/perTextTotal"
+        android:layout_alignStart="@+id/perTextTotal"
+        android:layout_below="@+id/perTextTotal"
+        android:layout_marginTop="25dp"
+        android:text="Considering for 25% :" />
+
+    <TextView
+        android:id="@+id/per25TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/perText25"
+        android:layout_alignLeft="@+id/totalTextView"
+        android:layout_alignStart="@+id/totalTextView"
+        android:text="0" />
+
+    <TextView
+        android:id="@+id/perText75"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/perText25"
+        android:layout_alignStart="@+id/perText25"
+        android:layout_below="@+id/perText25"
+        android:layout_marginTop="24dp"
+        android:text="Considering for 75% :" />
+
+    <TextView
+        android:id="@+id/per75TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/per25TextView"
+        android:layout_alignStart="@+id/per25TextView"
+        android:layout_alignTop="@+id/perText75"
+        android:text="0" />
+
+    <TextView
+        android:id="@+id/objTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/perTextObj"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_toEndOf="@+id/perTextObj"
+        android:layout_toRightOf="@+id/perTextObj"
+        android:text="0" />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/shareLinearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/midTextView"
+        android:layout_alignStart="@+id/midTextView"
+        android:layout_alignTop="@+id/totalTextView"
+        android:background="@drawable/circle"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/targetText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Target"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/targetMarksText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textViewNoMarks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="No Marks to Show "
+        android:textSize="25sp"
+        android:visibility="gone" />
+
+</com.riyagayasen.easyaccordion.AccordionView>
